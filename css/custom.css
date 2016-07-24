@@ -159,6 +159,9 @@ hr {
   #presentation .container {
     width: 90%;
   }
+  #map {
+      display:none !important;
+  }
 }
 @media (max-width: 768px){
   #introSlide {
