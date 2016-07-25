@@ -183,7 +183,7 @@ hr {
   }
 }
 #map{
-  width: 85%;
+  width: 80%;
   height: 600px;
 }
 #intermap{
@@ -191,4 +191,6 @@ hr {
 }
 #listmap{
   font-size: 1.5em;
+  padding-left: 5px;
+  padding-right: 5px;
 }
