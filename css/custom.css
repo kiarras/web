@@ -148,6 +148,7 @@ hr {
   margin-left: 10%;
   font-weight: bold;
 }
+
 @media (max-width: 425px){
   #presentation h1 {
     margin-left: 5%;
