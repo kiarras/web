@@ -1,13 +1,10 @@
 /* Archivo css para contacto.html */
 /* Contenido */
-.contenido {
+.contenido h2{
 	font-size:2em;
 }
 #gmapa {
   padding: 2em;
-	border:1;
-	border-size:1px;
-	border-color:blue;
 }
 #caddress {
   padding: 2em;
@@ -15,8 +12,9 @@
 
 @media (max-width:425px){
 	#gmapa {
-		padding-rigth:0px;
+	  padding-right:0px;
 		padding-left:0px;
+		margin-left: 0px;
 	}
 }
 
