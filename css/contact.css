@@ -3,7 +3,7 @@
 .contenido h2{
 	font-size:2em;
 }
-#gmapa {
+#mapa {
   padding: 2em;
 }
 #ocsamapa {
@@ -18,7 +18,7 @@
   .contenido h2{
   	font-size:1.5em;
   }
-	#gmapa {
+	#mapa {
 	  padding-right:0px;
 		padding-left:0px;
 		padding-bottom: 0px;
