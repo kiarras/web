@@ -3,37 +3,24 @@
 .contenido h2{
 	font-size:2em;
 }
-.rowtab {
-	padding-bottom: 2em;
-}
 #gmapa {
   padding: 2em;
 }
 #ocsamapa {
-	width: 500px;
+  width: 100%;
 }
 #caddress {
-  padding: 2em;
+  padding-bottom: 2em;
+  padding-left: 4em;
+  padding-right: 4em;
 }
 @media (max-width:425px){
+  .contenido h2{
+  	font-size:1.5em;
+  }
 	#gmapa {
 	  padding-right:0px;
 		padding-left:0px;
 		padding-bottom: 0px;
-	}
-	#ocsamapa {
-		width: 100%;
-	}
-}
-@media (max-width:780px){
-	#gmapa {
-		padding-left:10%;
-		padding-right:4em;
-	}
-}
-@media (min-width:1024px){
-	#gmapa {
-		padding-left:30%;
-		padding-right:4em;
 	}
 }
