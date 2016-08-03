@@ -4,7 +4,8 @@
 	font-size:2em;
 }
 .rowtab {
-	padding-bottom: 2em;
+		padding-top: 12em;
+	padding-bottom: 12em;
 }
 #gmapa {
   padding: 2em;
@@ -15,7 +16,20 @@
 #caddress {
   padding: 2em;
 }
-@media (max-width:425px){
+
+@media (min-width:1024px){
+	#gmapa {
+		padding-left:15%;
+		padding-right:4em;
+	}
+}
+@media (min-width:768px){
+	#gmapa {
+		padding-left:20%;
+		padding-right:4em;
+	}
+}
+@media (min-width:425px){
 	#gmapa {
 	  padding-right:0px;
 		padding-left:0px;
@@ -23,17 +37,5 @@
 	}
 	#ocsamapa {
 		width: 100%;
-	}
-}
-@media (max-width:780px){
-	#gmapa {
-		padding-left:10%;
-		padding-right:4em;
-	}
-}
-@media (min-width:1024px){
-	#gmapa {
-		padding-left:30%;
-		padding-right:4em;
 	}
 }
