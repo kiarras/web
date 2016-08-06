@@ -42,6 +42,11 @@ hr {
 #presentation .row {
   display: inline-flex;
 }
+#presentation_text {
+	padding: 1em;
+	width: 40%
+	text-align: justify;
+}
 #presentation .container {
   padding: 1em;
   width: 40%;
@@ -78,6 +83,7 @@ hr {
   }
   #presentation .container {
     width: 90%;
+	margin: 1em 0;
   }
   #map {
       display:none !important;
@@ -87,6 +93,14 @@ hr {
   #introSlide {
     display:none !important;
     }
+	#presentation_text {
+	width:90%
+	margin: 1em 0;
+	}
+	#presentation .container {
+	width:90%;
+	margin: 1em 0;
+	}
 }
 @media (max-width: 1024px){
   .carousel-caption h3 {

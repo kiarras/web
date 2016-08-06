@@ -4,6 +4,11 @@
   padding-left:15%;
   padding-right:15%;
 }
+#images1 img {
+    width:80%;
+    display: block;
+    margin: 0 auto;
+}
 #texto_equipo {
   padding-top:1em;
   padding-bottom:1em;
@@ -15,8 +20,29 @@
   display: block;
   margin: 0 auto;
 }
-#texto_equipo>p {
+#texto_equipo p {
   width:200px;
   display: block;
   margin: 0 auto;
+}
+
+/* Media queries */
+@media (max-width:425px) {
+   #texto {
+     padding-left:5px;
+     padding-right:5px;
+   }
+       
+}
+@media (max-width:768px) {
+   #texto {
+     padding-left:10px;
+     padding-right:10px;
+   }
+   #texto_equipo {
+       padding: 1em 0;
+   }
+   #texto_equipo p {
+       padding-bottom:1em;
+   }
 }
