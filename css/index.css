@@ -81,6 +81,10 @@ hr {
   #presentation .row {
     display: inline-block;
   }
+#presentation_text {
+	width:90%
+	margin: 1em 0;
+	}
   #presentation .container {
     width: 90%;
 	margin: 1em 0;
