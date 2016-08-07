@@ -39,12 +39,6 @@ hr {
 #presentation .row {
   display: inline-flex;
 }
-
-#presentation .container {
-  padding: 1em;
-  width: 40%;
-  text-align: justify;
-}
 #presentation h1 {
   margin-left: 10%;
   font-weight: bold;
@@ -65,6 +59,10 @@ hr {
   background-color: #286090;
   color: #ffffff;
 }
+.col-md-6 {
+  padding-left: 5%;
+  padding-right: 5%;
+}
 /* Media queries */
 @media (max-width: 425px){
   #contenido .container-fluid {
@@ -78,10 +76,6 @@ hr {
   #presentation .row {
     display: inline-block;
   }
-  #presentation .container {
-    width: 90%;
-    margin: 1em 0;
-  }
   #map {
     display:none !important;
   }
@@ -90,10 +84,6 @@ hr {
   #introSlide {
     display:none !important;
     }
-	#presentation .container {
-  	width:90%;
-  	margin: 1em 0;
-	}
 }
 @media (max-width: 1024px){
   .carousel-caption h3 {
@@ -102,10 +92,5 @@ hr {
   }
   .carousel-caption {
     margin-left: -20em;
-  }
-}
-@media (min-width: 1024px){
-  #presentation .container {
-    width: 30%;
   }
 }

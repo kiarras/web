@@ -1,8 +1,8 @@
   /* Archivo css para Presentacion.html */
 #texto {
   padding-top:15px;
-  padding-left:15%;
-  padding-right:15%;
+  padding-left:10%;
+  padding-right:10%;
 }
 #images1 img {
     width:80%;
@@ -32,7 +32,7 @@
      padding-left:5px;
      padding-right:5px;
    }
-       
+
 }
 @media (max-width:768px) {
    #texto {
