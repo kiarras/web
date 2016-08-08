@@ -1,17 +1,7 @@
   /* Archivo CSS para index.html*/
-/*Caracteristicas slider*/
+/*Caracteristicas introSlide*/
 #introSlide {
   background-color: black;
-}
-#presentation {
-  background-color: #eee;
-  display: inline-block;
-}
-#places {
-  background-color: #212121;
-  display: inline-block;
-  color: #eee;
-  width: 100%;
 }
 .carousel-inner img {
   margin: auto;
@@ -26,7 +16,18 @@
     font-size: 3em;
     font-weight: bold;
 }
-/*Caracteisticas Textos*/
+/*Caracteristicas presentation*/
+#presentation {
+  background-color: #eee;
+  display: inline-block;
+}
+#presentation .row {
+  display: inline-flex;
+}
+#presentation h1 {
+  margin-left: 10%;
+  font-weight: bold;
+}
 hr {
     display: block;
     margin-top: 0.5em;
@@ -36,12 +37,12 @@ hr {
     border-style: inset;
     border-width: 1px;
 }
-#presentation .row {
-  display: inline-flex;
-}
-#presentation h1 {
-  margin-left: 10%;
-  font-weight: bold;
+/*Caracteristicas places*/
+#places {
+  background-color: #212121;
+  display: inline-block;
+  color: #eee;
+  width: 100%;
 }
 #map{
   width: 80%;
@@ -54,6 +55,18 @@ hr {
   font-size: 1.5em;
   padding-left: 5px;
   padding-right: 5px;
+}
+/*Caracteristicas sections*/
+#sections .row {
+  margin: 2em auto;
+  display:
+}
+#sections .col-lg-4 {
+  padding: 0 7%;
+}
+#sections img {
+  display: block;
+  margin: 0 auto;
 }
 .btn-section:hover {
   background-color: #286090;
@@ -92,5 +105,9 @@ hr {
   }
   .carousel-caption {
     margin-left: -20em;
+  }
+
+  #sections .col-lg-4 {
+    padding: 0 15px;
   }
 }

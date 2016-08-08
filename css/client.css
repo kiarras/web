@@ -1,0 +1,13 @@
+  /* Archivo CSS para clientes.html*/
+#ingciviles h3 {
+  margin-left: 2em;
+
+}
+.logo {
+  padding: 1em;
+}
+
+.logo a {
+  display: block;
+  vertical-align: middle;
+}
