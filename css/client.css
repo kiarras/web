@@ -1,7 +1,6 @@
   /* Archivo CSS para clientes.html*/
-#ingciviles h3 {
+.panel-primary h3 {
   margin-left: 2em;
-
 }
 .logo {
   padding: 1em;
