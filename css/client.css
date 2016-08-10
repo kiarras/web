@@ -2,11 +2,23 @@
 .panel-primary h3 {
   margin-left: 2em;
 }
-.logo {
-  padding: 1em;
+#logos .list-group {
+  width: auto;
+  padding-left: 5%;
 }
-
-.logo a {
+#logos .list-group-item {
+  display: inline-block;
+  border: none;
+}
+#logos .list-group-item a {
   display: block;
   vertical-align: middle;
+}
+
+/*media queries */
+@media (max-width: 425px) {
+
+  #logos .list-group {
+    padding-left: 5%;
+  }
 }
