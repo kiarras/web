@@ -84,6 +84,9 @@ body {
   background-color: #ffffff;
   color: #000000;
 }
+#certificados img {
+  padding: 38px;
+}
 @media (min-width: 992px){
   #imgcalidad {
     margin-top: 15%;
