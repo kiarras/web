@@ -19,6 +19,13 @@
 @media (max-width: 425px) {
 
   #logos .list-group {
-    padding-left: 5%;
+    padding-left: 0px;
   }
 }
+
+@media (max-with: 768px) {
+	#logos .list-group {
+	padding-left: 5%;
+	}
+}
+	
