@@ -1,1 +1,12 @@
 /* Archivo css de proyectos.html */
+.panel-primary h3 {
+  margin-left: 2em;
+}
+#proyects .list-group {
+  width: auto;
+  padding-left: 5%;
+}
+#proyects .list-group-item {
+  display: inline-block;
+  border: none;
+}
