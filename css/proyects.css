@@ -6,7 +6,11 @@
   width: auto;
   padding-left: 5%;
 }
-#proyects .list-group-item {
+.list-group-item {
   display: inline-block;
   border: none;
+}
+#proyects a {
+  color: #fff;
+
 }
