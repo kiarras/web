@@ -12,5 +12,7 @@
 }
 #proyects a {
   color: #fff;
-
+}
+#proyects a:target {
+  padding-top: 85px;
 }
