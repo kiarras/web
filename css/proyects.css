@@ -6,6 +6,9 @@
   width: auto;
   padding-left: 5%;
 }
+.breadcrumb{
+  background-color: #fff;
+}
 .list-group-item {
   display: inline-block;
   border: none;
