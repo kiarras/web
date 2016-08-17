@@ -6,7 +6,7 @@
   width: auto;
   padding-left: 5%;
 }
-#logos .list-group-item {
+.list-group-item {
   display: inline-block;
   border: none;
 }
@@ -14,7 +14,15 @@
   display: block;
   vertical-align: middle;
 }
-
+#titles a {
+  color: #fff;
+}
+#titles a:target {
+  padding-top: 85px;
+}
+#titles a:hover {
+  text-decoration: none;
+}
 /*media queries */
 @media (max-width: 425px) {
 
@@ -28,4 +36,3 @@
 	padding-left: 5%;
 	}
 }
-	

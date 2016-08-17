@@ -1,4 +1,4 @@
-/* Archivo css de proyectos.html */
+/* Archivo CSS de proyectos.html */
 .panel-primary h3 {
   margin-left: 2em;
 }
@@ -15,4 +15,7 @@
 }
 #proyects a:target {
   padding-top: 85px;
+}
+#proyects a:hover {
+  text-decoration: none;
 }
