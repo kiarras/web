@@ -1,1 +1,12 @@
 /* Arhivo css para tecnicas-geofisica.html */
+.sections .col-lg-3 {
+  padding: 0 1%;
+}
+.sections img {
+  display: block;
+  margin: 0 auto;
+}
+.btn-section:hover {
+  background-color: #286090;
+  color: #ffffff;
+}
