@@ -1,4 +1,33 @@
 /* Arhivo css para tecnicas-geofisica.html */
+/*Caracteristicas introSlide*/
+#introSlide {
+  background-color: black;
+}
+.carousel-inner img {
+  margin: auto;
+}
+/*Caracteristicas presentation*/
+#presentation {
+  background-color: #eee;
+  display: inline-block;
+}
+#presentation .row {
+  display: inline-flex;
+}
+#presentation h1 {
+  margin-left: 10%;
+  font-weight: bold;
+}
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+/*Caracteristicas sections*/
 .sections .col-lg-3 {
   padding: 0 1%;
 }
@@ -10,3 +39,26 @@
   background-color: #286090;
   color: #ffffff;
 }
+/* Media queries */
+@media (max-width: 425px){
+  #contenido .container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #presentation h1 {
+    margin-left: 5%;
+    font-size: 2em;
+  }
+  #presentation .row {
+    display: inline-block;
+  }
+  @media (max-width: 768px){
+    #introSlide {
+      display:none !important;
+      }
+  }
+  @media (max-width: 1024px){
+    .sections .col-lg-3 {
+      padding: 0 15px;
+    }
+  }
