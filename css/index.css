@@ -1,21 +1,5 @@
   /* Archivo CSS para index.html*/
-/*Caracteristicas introSlide*/
-#introSlide {
-  background-color: black;
-}
-.carousel-inner img {
-  margin: auto;
-}
-.carousel-caption {
-  right: 0%;
-  left: 0%;
-  margin-left: -25em;
-  padding-bottom: 5px;
-}
-.carousel-caption h3 {
-    font-size: 3em;
-    font-weight: bold;
-}
+
 /*Caracteristicas presentation*/
 #presentation {
   background-color: #eee;
@@ -68,10 +52,6 @@ hr {
   display: block;
   margin: 0 auto;
 }
-.btn-section:hover {
-  background-color: #286090;
-  color: #ffffff;
-}
 .col-md-6 {
   padding-left: 5%;
   padding-right: 5%;
@@ -92,11 +72,6 @@ hr {
   #map {
     display:none !important;
   }
-}
-@media (max-width: 768px){
-  #introSlide {
-    display:none !important;
-    }
 }
 @media (max-width: 1024px){
   .carousel-caption h3 {

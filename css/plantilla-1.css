@@ -1,0 +1,15 @@
+  /* Archivo CSS propio sobre plantilla-1.css*/
+
+  /* ----------Media queries---------- */
+  /*Para moviles (si menor o igual de 425px)*/
+  @media (max-width: 425px){
+
+  }
+  /*Para tablet (si menor o igual de 768px)*/
+  @media (max-width: 768px){
+
+  }
+  /*Para PC (si menor o igual de 1024px)*/
+  @media (max-width: 1024px){
+    
+  }

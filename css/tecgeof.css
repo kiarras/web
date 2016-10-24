@@ -1,20 +1,19 @@
 /* Arhivo css para tecnicas-geofisica.html */
-/*Caracteristicas introSlide*/
-#introSlide {
-  background-color: black;
+
+
+.contenido .container-fluid {
+  padding-left: 100px;
+  padding-right: 100px;
 }
-.carousel-inner img {
-  margin: auto;
-}
-/*Caracteristicas presentation*/
-#presentation {
+/*Caracteristicas intro*/
+.intro {
   background-color: #eee;
   display: inline-block;
 }
-#presentation .row {
+.intro .row {
   display: inline-flex;
 }
-#presentation h1 {
+.intro h1 {
   margin-left: 10%;
   font-weight: bold;
 }
@@ -31,34 +30,29 @@ hr {
 .sections .col-lg-3 {
   padding: 0 1%;
 }
-.sections img {
-  display: block;
-  margin: 0 auto;
-}
-.btn-section:hover {
-  background-color: #286090;
-  color: #ffffff;
-}
-/* Media queries */
+
+/* ----------Media queries---------- */
+/*Para moviles (si menor o igual de 425px)*/
 @media (max-width: 425px){
-  #contenido .container-fluid {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  #presentation h1 {
+  .intro h1 {
     margin-left: 5%;
     font-size: 2em;
   }
-  #presentation .row {
+  .intro .row {
     display: inline-block;
   }
-  @media (max-width: 768px){
-    #introSlide {
-      display:none !important;
-      }
+  .contenido .container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
   }
-  @media (max-width: 1024px){
+}
+/*Para tablet (si menor o igual de 768px)*/
+@media (max-width: 768px){
+
+}
+/*Para PC (si menor o igual de 1024px)*/
+@media (max-width: 1024px){
     .sections .col-lg-3 {
       padding: 0 15px;
     }
-  }
+}
