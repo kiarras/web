@@ -111,7 +111,8 @@ body {
 }
 /* Seccion pie*/
 .pie {
-  background-color: #000014;
+  background-color: #000014;/* #004b0f or #003205*/
+  margin-top: 20px;
   padding-top: 30px;
   padding-bottom: 30px;
 }

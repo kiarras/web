@@ -1,0 +1,39 @@
+  /* Archivo CSS propio sobre magnetometría.css*/
+
+  /*Caracteristicas intro*/
+  .page-header {
+    padding-left: 100px;
+    background-color: #eee;
+  }
+  .contenido .row {
+    display: inline-flex;
+  }
+  .page-header h1 {
+    margin-left: 10%;
+    font-weight: bold;
+  }
+  hr {
+      display: block;
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+      margin-left: auto;
+      margin-right: auto;
+      border-style: inset;
+      border-width: 1px;
+  }
+  /* ----------Media queries---------- */
+  /*Para moviles (si menor o igual de 425px)*/
+  @media (max-width: 425px){
+    .contenido img{
+      width: 100%;
+      margin-bottom: 5px;
+    }
+  }
+  /*Para tablet (si menor o igual de 768px)*/
+  @media (max-width: 768px){
+
+  }
+  /*Para PC (si menor o igual de 1024px)*/
+  @media (max-width: 1024px){
+
+  }
