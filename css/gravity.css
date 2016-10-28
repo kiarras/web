@@ -1,17 +1,11 @@
   /* Archivo CSS propio sobre gravimetria.css*/
 
-  /*Caracteristicas intro*/
+  /*Caracteristicas page-header*/
   .page-header {
     padding-top: 9px;
     padding-left: 100px;
     background-color: #eee;
-  }
-  .contenido .row {
-    display: inline-flex;
-    margin: 0 100px;
-  }
-  .contenido p{
-    text-align: justify;
+    margin: 0 -15px;
   }
   .page-header h1 {
     margin-left: 10%;
@@ -26,6 +20,14 @@
       border-style: inset;
       border-width: 1px;
   }
+    /*Caracteristicas row*/
+  .contenido .row {
+    display: inline-flex;
+    margin: 0 15px;
+  }
+  .contenido p{
+    text-align: justify;
+  }
 
   /* ----------Media queries---------- */
   /*Para moviles (si menor o igual de 425px)*/
@@ -33,17 +35,13 @@
     .page-header {
       padding-left: 0px;
     }
-    .contenido img{
-      max-width: 100%;
-      margin-bottom: 5px;
+    .page-header h1 {
+      margin-left: 5%;
+      font-size: 2em;
     }
     .contenido .row{
       display: block;
       margin: 0;
-    }
-    .container-fluid{
-      padding-left: 0;
-      padding-right: 0;
     }
   }
   /*Para tablet (si menor o igual de 768px)*/
@@ -52,7 +50,5 @@
   }
   /*Para PC (si menor o igual de 1024px)*/
   @media (max-width: 1024px){
-    .contenido .row{
-      margin: 15px;
-    }
+
   }

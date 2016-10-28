@@ -1,12 +1,11 @@
   /* Archivo CSS propio sobre magnetometría.css*/
 
-  /*Caracteristicas intro*/
+  /*Caracteristicas page-header*/
   .page-header {
+    padding-top: 9px;
     padding-left: 100px;
     background-color: #eee;
-  }
-  .contenido .row {
-    display: inline-flex;
+    margin: 0 -15px;
   }
   .page-header h1 {
     margin-left: 10%;
@@ -21,12 +20,31 @@
       border-style: inset;
       border-width: 1px;
   }
+    /*Caracteristicas row*/
+  .contenido .row {
+    display: inline-flex;
+    margin-bottom: 15px;
+  }
+  #map_mag{
+    display: block;
+  }
+  .contenido p{
+    text-align: justify;
+  }
+
   /* ----------Media queries---------- */
   /*Para moviles (si menor o igual de 425px)*/
   @media (max-width: 425px){
-    .contenido img{
-      width: 100%;
-      margin-bottom: 5px;
+    .page-header {
+      padding-left: 0px;
+    }
+    .page-header h1 {
+      margin-left: 5%;
+      font-size: 2em;
+    }
+    .contenido .row{
+      display: block;
+      margin: 0;
     }
   }
   /*Para tablet (si menor o igual de 768px)*/
