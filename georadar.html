@@ -36,8 +36,47 @@
 
         ga('create', 'UA-1292910-3', 'auto');
         ga('send', 'pageview');</script>
+
+        <script type="text/javascript">
+        function enterexample() {
+          var expl; var num;
+
+          expl = document.getElementById('exampleRandom');
+          num = Math.random();
+          if(num <0.25){
+            expl.innerHTML = '<h3>Auscultación de subsuelo de una carretera</h3>';
+            expl.innerHTML += '<a href="#"><img src="images/ejemplo1-georadar.jpg" class="img-responsive center-block" alt="Georadar en carretera" /></a>';
+          };
+          if(0.25<num<0.5){
+            expl.innerHTML = '<h3>Auscultación de un túnel</h3>';
+            expl.innerHTML += '<a href="#"><img src="images/ejemplo2-georadar.jpg" class="img-responsive center-block" alt="Georadar de un tunel" /></a>';
+          };
+          if(0.5<num<0.75){
+            expl.innerHTML = '<h3>Auscultación de la base de rodadura de un aeropuerto</h3>';
+            expl.innerHTML += '<div class="row">';
+            expl.innerHTML += '<div class="col-sm-6">';
+            expl.innerHTML += '<a href="#"><img src="images/ejemplo3-georadar-aeropuerto1.jpg" class="img-responsive center-block" alt="Estudio de aeropuero con georadar" /></a>';
+            expl.innerHTML += '  </div>';
+            expl.innerHTML += '  <div class="col-sm-6">';
+            expl.innerHTML += '    <a href="#"><img src="images/ejemplo3-georadar-aeropuerto2.jpg" class="img-responsive center-block" alt="Estudio de aeropuero con georadar" /></a>';
+            expl.innerHTML += '  </div>';
+            expl.innerHTML += '</div>';
+            expl.innerHTML += '<div class="row">';
+            expl.innerHTML += '  <div class="col-sm-6">';
+            expl.innerHTML += '    <a href="#"><img src="images/ejemplo3-georadar-aeropuerto3.jpg" class="img-responsive center-block" alt="Estudio de aeropuero con georadar" /></a>';
+            expl.innerHTML += '  </div>';
+            expl.innerHTML += '  <div class="col-sm-6">';
+            expl.innerHTML += '    <a href="#"><img src="images/ejemplo3-georadar-aeropuerto4.jpg" class="img-responsive center-block" alt="Estudio de aeropuero con georadar" /></a>';
+            expl.innerHTML += '  </div>';
+            expl.innerHTML += '</div>';};
+          if(num>0.75){
+            expl.innerHTML = '<h3>Detección de zonas karstificadas en calizas</h3>';
+            expl.innerHTML += '<a href="#"><img src="images/ejemplo4-georadar.jpg" class="img-responsive center-block" alt="Karstificación en georadar" /></a>';};
+        }
+
+        </script>
   </head>
-  <body>
+  <body onload="enterexample()" >
     <!--Zona Logo y botones iniciales-->
     <section class="cabecera">
       <nav class="navbar navbar-default navbar-fixed-top">
@@ -184,37 +223,9 @@
           </p>
         </div>
         <div class="container-fluid exp">
-          <h2>Ejemplos</h2>
-          <div class="example">
-            <h3>Auscultación de subsuelo de una carretera</h3>
-            <a href="#"><img src="images/ejemplo1-georadar.jpg" class="img-responsive center-block" alt="Georadar en carretera" /></a>
-          </div>
-          <div class="example">
-            <h3>Auscultación de un túnel</h3>
-            <a href="#"><img src="images/ejemplo2-georadar.jpg" class="img-responsive center-block" alt="Georadar de un tunel" /></a>
-          </div>
-          <div class="example">
-            <h3>Auscultación de la base de rodadura de un aeropuerto</h3>
-            <div class="row">
-              <div class="col-sm-6">
-                <a href="#"><img src="images/ejemplo3-georadar-aeropuerto1.jpg" class="img-responsive center-block" alt="Estudio de aeropuero con georadar" /></a>
-              </div>
-              <div class="col-sm-6">
-                <a href="#"><img src="images/ejemplo3-georadar-aeropuerto2.jpg" class="img-responsive center-block" alt="Estudio de aeropuero con georadar" /></a>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-6">
-                <a href="#"><img src="images/ejemplo3-georadar-aeropuerto3.jpg" class="img-responsive center-block" alt="Estudio de aeropuero con georadar" /></a>
-              </div>
-              <div class="col-sm-6">
-                <a href="#"><img src="images/ejemplo3-georadar-aeropuerto4.jpg" class="img-responsive center-block" alt="Estudio de aeropuero con georadar" /></a>
-              </div>
-            </div>
-          </div>
-          <div class="example">
-            <h3>Detección de zonas karstificadas en calizas</h3>
-            <a href="#"><img src="images/ejemplo4-georadar.jpg" class="img-responsive center-block" alt="Karstificación en georadar" /></a>
+          <h2>Ejemplo</h2>
+          <div id="exampleRandom" class="example">
+
           </div>
         </div>
       </div>
