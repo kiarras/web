@@ -29,10 +29,23 @@ hr {
   text-align: justify;
 }
 .img3d{
-  display: grid;
+  display: block;;
 }
 .img3d p{
   padding-left: 100px;
+}
+.img3d .col-sm-6{
+  margin: 15px 0;
+}
+.example h3{
+  padding: 5px;
+}
+.example .row{
+  margin: 0;
+}
+.app, .exp{
+  margin-left: auto;
+  margin-right: auto;
 }
 /* ----------Media queries---------- */
 /*Para moviles (si menor o igual de 425px)*/
@@ -89,4 +102,16 @@ hr {
   .Mscreen{
     display: none !important;
   }
+}
+/*Para PC (si mayor de 1200px)*/
+@media (min-width: 1200px){
+  .container-fluid{
+      margin-left: 100px;
+      margin-right: 100px;
+    }
+    .page-header {
+      padding-left: 200px;
+      margin-left: -115px;
+      margin-right: -115px;
+    }
 }
