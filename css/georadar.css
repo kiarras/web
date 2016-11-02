@@ -44,7 +44,7 @@ hr {
   margin: 0;
 }
 .app, .exp{
-  margin-left: auto;;
+  margin-left: auto;
   margin-right: auto;
 }
 /* ----------Media queries---------- */
@@ -108,5 +108,10 @@ hr {
   .container-fluid{
       margin-left: 100px;
       margin-right: 100px;
+    }
+    .page-header {
+      padding-left: 200px;
+      margin-left: -115px;
+      margin-right: -115px;
     }
 }
