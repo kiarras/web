@@ -1,0 +1,105 @@
+  /* Archivo CSS propio sobre reflection.css*/
+
+  /*Caracteristicas page-header*/
+  .page-header {
+    padding-top: 9px;
+    padding-left: 100px;
+    background-color: #eee;
+    margin: 0 -15px;
+  }
+  .page-header h1 {
+    margin-left: 10%;
+    font-weight: bold;
+  }
+  hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  }
+  /*Caracteristicas row*/
+  .contenido .row {
+    display: inline-block;
+    margin: 15px;
+  }
+  .contenido p{
+    text-align: justify;
+  }
+  .example h3{
+    padding: 5px;
+  }
+  .example .row{
+    margin: 0;
+  }
+  .app, .exp{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* ----------Media queries---------- */
+  /*Para moviles (si menor o igual de 425px)*/
+  @media (max-width: 425px){
+    .page-header {
+      padding-left: 0px;
+    }
+    .page-header h1 {
+      margin-left: 5%;
+      font-size: 2em;
+    }
+    .Sscreen{
+      display: block;
+    }
+    .Mscreen{
+      display: none !important;
+    }
+    .contenido .row{
+      display: block;
+      margin: 15px 0;
+    }
+  }
+  /*Para tablet (si menor o igual de 768px)*/
+  @media (max-width: 768px){
+    .Hscreen{
+      display: none !important;
+    }
+    .Mscreen{
+      display: block;
+    }
+  }
+  /*Para PC (si menor o igual de 1024px)*/
+  @media (max-width: 1024px){
+
+  }
+
+  /*Para PC (si mayor de 425px)*/
+  @media (min-width: 425px){
+
+  }
+  /*Para PC (si mayor de 768px)*/
+  @media (min-width: 768px){
+    .Sscreen{
+      display: none !important;
+    }
+  }
+  /*Para PC (si mayor de 1024px)*/
+  @media (min-width: 1024px){
+    /*Caracteristicas slide*/
+    .Mscreen{
+      display: none !important;
+    }
+  }
+  /*Para PC (si mayor de 1200px)*/
+  @media (min-width: 1200px){
+    .container-fluid{
+        margin-left: 100px;
+        margin-right: 100px;
+      }
+      .page-header {
+        padding-left: 200px;
+        margin-left: -115px;
+        margin-right: -115px;
+      }
+  }
