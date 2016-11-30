@@ -22,7 +22,7 @@
     }
     /*Caracteristicas row*/
     .contenido .row {
-      display: inline-block;
+      display: block;
       margin: 15px;
     }
     .contenido p{
