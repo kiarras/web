@@ -1,0 +1,6 @@
+# Sitemap: http://www.ocsa-geofisica.com/sitemap.xml
+User-agent: *
+Disallow: /ammap/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /js/
