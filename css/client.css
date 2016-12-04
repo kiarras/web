@@ -23,6 +23,17 @@
 #titles a:hover {
   text-decoration: none;
 }
+
+.ir-arriba {
+	display:none;
+	padding:20px;
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+}
 /*media queries */
 @media (max-width: 425px) {
 
