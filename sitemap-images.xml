@@ -548,7 +548,7 @@
         <image:title>Sísmica de reflexión de alta resolución en modo slalon</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://www.ocsa-geofisica.com/images/reflexion-tunel.jpg</image:loc>
+        <image:loc>http://www.ocsa-geofisica.com/images/reflexion-tunel.png</image:loc>
         <image:title>Sísmica de reflexión de alta resolución para trazado de tunel</image:title>
       </image:image>
       <image:image>
@@ -582,19 +582,19 @@
         <image:title>Proyecto de ferrocarril</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://www.ocsa-geofisica.com/images/interpretacion-carretera.jpg</image:loc>
+        <image:loc>http://www.ocsa-geofisica.com/images/interpretacion-carretera.png</image:loc>
         <image:title>Reconocimiento geofísico para la construcción de una carretera</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://www.ocsa-geofisica.com/images/investigacion-refraccion.jpg</image:loc>
+        <image:loc>http://www.ocsa-geofisica.com/images/investigacion-refraccion.png</image:loc>
         <image:title>Estudio de excavabilidad</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://www.ocsa-geofisica.com/images/interpretacion-MASW.jpg</image:loc>
+        <image:loc>http://www.ocsa-geofisica.com/images/interpretacion-MASW.png</image:loc>
         <image:title>Auscultación con MASW</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://www.ocsa-geofisica.com/images/investigacion-cimentaciones.jpg</image:loc>
+        <image:loc>http://www.ocsa-geofisica.com/images/investigacion-cimentaciones.png</image:loc>
         <image:title>Investigación de cimentaciones de un puente</image:title>
       </image:image>
       <image:image>
@@ -720,31 +720,31 @@
         <image:title>Georadar 3D</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://www.ocsa-geofisica.com/images/ejemplo1-georadar.jpg</image:loc>
+        <image:loc>http://www.ocsa-geofisica.com/images/ejemplo1-georadar.png</image:loc>
         <image:title>Georadar en carretera</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://www.ocsa-geofisica.com/images/ejemplo2-georadar.jpg</image:loc>
+        <image:loc>http://www.ocsa-geofisica.com/images/ejemplo2-georadar.png</image:loc>
         <image:title>Georadar de un tunel</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://www.ocsa-geofisica.com/images/ejemplo3-georadar-aeropuerto1.jpg</image:loc>
+        <image:loc>http://www.ocsa-geofisica.com/images/ejemplo3-georadar-aeropuerto1.png</image:loc>
         <image:title>Estudio de aeropuero con georadar</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://www.ocsa-geofisica.com/images/ejemplo3-georadar-aeropuerto2.jpg</image:loc>
+        <image:loc>http://www.ocsa-geofisica.com/images/ejemplo3-georadar-aeropuerto2.png</image:loc>
         <image:title>Estudio de aeropuero con georadar</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://www.ocsa-geofisica.com/images/ejemplo3-georadar-aeropuerto3.jpg</image:loc>
+        <image:loc>http://www.ocsa-geofisica.com/images/ejemplo3-georadar-aeropuerto3.png</image:loc>
         <image:title>Estudio de aeropuero con georadar</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://www.ocsa-geofisica.com/images/ejemplo3-georadar-aeropuerto4.jpg</image:loc>
+        <image:loc>http://www.ocsa-geofisica.com/images/ejemplo3-georadar-aeropuerto4.png</image:loc>
         <image:title>Estudio de aeropuero con georadar</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://www.ocsa-geofisica.com/images/ejemplo4-georadar.jpg</image:loc>
+        <image:loc>http://www.ocsa-geofisica.com/images/ejemplo4-georadar.png</image:loc>
         <image:title>Karstificación en georadar</image:title>
       </image:image>
   </url>
@@ -754,7 +754,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
       <image:image>
-        <image:loc>http://www.ocsa-geofisica.com/images/campo_natural1.jpg</image:loc>
+        <image:loc>http://www.ocsa-geofisica.com/images/campo_natural1.png</image:loc>
         <image:title>Mapa de anomalías magneticas</image:title>
       </image:image>
       <image:image>
@@ -762,7 +762,7 @@
         <image:title>Mapa de anomalías</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://www.ocsa-geofisica.com/images/campo_natural3.jpg</image:loc>
+        <image:loc>http://www.ocsa-geofisica.com/images/campo_natural3.png</image:loc>
         <image:title>Mapa de anomalías</image:title>
       </image:image>
       <image:image>
@@ -966,7 +966,7 @@
         <image:title>Ejemplo de batimetria</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://www.ocsa-geofisica.com/images/marina9.jpg</image:loc>
+        <image:loc>http://www.ocsa-geofisica.com/images/marina9.png</image:loc>
         <image:title>Ejemplos de registros sísmicos obtenidos con geopulse</image:title>
       </image:image>
       <image:image>
@@ -990,7 +990,7 @@
         <image:title>Ejemplo de batimetria</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://www.ocsa-geofisica.com/images/ejemplo2-marina-cortes.jpg</image:loc>
+        <image:loc>http://www.ocsa-geofisica.com/images/ejemplo2-marina-cortes.png</image:loc>
         <image:title>Cortes geologicos asociados a sísmica marina</image:title>
       </image:image>
       <image:image>
@@ -1002,7 +1002,7 @@
         <image:title>Ejemplo de mapa de profundidades en trabajo de sísmica marina</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://www.ocsa-geofisica.com/images/ejemplo5-marina-cortes.jpg</image:loc>
+        <image:loc>http://www.ocsa-geofisica.com/images/ejemplo5-marina-cortes.png</image:loc>
         <image:title>Estudio para un emisario submarino</image:title>
       </image:image>
   </url>
@@ -1102,7 +1102,7 @@
         <image:title>Espectro de lentitud-frecuencia de las ondas de superficie</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://www.ocsa-geofisica.com/images/ejemplo1-remi.jpg</image:loc>
+        <image:loc>http://www.ocsa-geofisica.com/images/ejemplo1-remi.png</image:loc>
         <image:title>Ejemplo remi</image:title>
       </image:image>
       <image:image>
@@ -1170,7 +1170,7 @@
         <image:title>Trabajos de reflexión de alta resolución</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://www.ocsa-geofisica.com/images/reflexion12.jpg</image:loc>
+        <image:loc>http://www.ocsa-geofisica.com/images/reflexion12.png</image:loc>
         <image:title>Interpretación de sísmica de reflexión de alta resolución</image:title>
       </image:image>
       <image:image>
@@ -1202,11 +1202,11 @@
         <image:title>Corte geosismico</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://www.ocsa-geofisica.com/images/ejemplo1-reflexion.jpg</image:loc>
+        <image:loc>http://www.ocsa-geofisica.com/images/ejemplo1-reflexion.png</image:loc>
         <image:title>Sección migrada e interpretación de tunel</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://www.ocsa-geofisica.com/images/ejemplo2-reflexion.jpg</image:loc>
+        <image:loc>http://www.ocsa-geofisica.com/images/ejemplo2-reflexion.png</image:loc>
         <image:title>Sección migrada e interpretación de tunel</image:title>
       </image:image>
       <image:image>
