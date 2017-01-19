@@ -24,127 +24,6 @@
     <!-- CSS custom -->
     <link href="../css/custom.min.css" rel="stylesheet">
     <link href="../css/index.min.css" rel="stylesheet">
-    <!--script del mapa-->
-    <link rel="stylesheet" href="../ammap/ammap.css" type="text/css">
-    <script src="../ammap/ammap.js" type="text/javascript"></script>
-    <!-- map file should be included after ammap.js -->
-    <script src="../ammap/maps/js/worldLow.js" type="text/javascript"></script>
-    <script src="../ammap/themes/dark.js" type="text/javascript"></script>
-    <script>
-      AmCharts.theme = AmCharts.themes.dark;
-      // add all your code to this method, as this will ensure that page is loaded
-      AmCharts.ready(function() {
-        // create AmMap object
-        var map = new AmCharts.AmMap();
-        // set path to ../images
-        //map.pathTo../images = "ammap/../images/";
-
-        /* create data provider object
-         map property is usually the same as the name of the map file.
-
-         getAreasFromMap indicates that amMap should read all the areas available
-         in the map data and treat them as they are included in your data provider.
-         in case you don't set it to true, all the areas except listed in data
-         provider will be treated as unlisted.
-        */
-        var dataProvider = {
-          map: "worldLow",
-          mapVar: AmCharts.maps.worldLow,
-          //getAreasFromMap:true
-          areas: [{
-            title: "Spain",
-            id: "ES",
-            color: "#CC0000"
-          }, {
-            title: "Portugal",
-            id: "PT",
-            color: "#CC0000"
-          }, {
-            title: "Colombia",
-            id: "CO",
-            color: "#CC0000"
-          }, {
-            title: "Chile",
-            id: "CL",
-            color: "#CC0000"
-          }, {
-            title: "Dominican Republic",
-            id: "DO",
-            color: "#CC0000"
-          }, {
-            title: "Algeria",
-            id: "DZ",
-            color: "#CC0000"
-          }, {
-            title: "India",
-            id: "IN",
-            color: "#CC0000"
-          }, {
-            title: "Kenya",
-            id: "KE",
-            color: "#CC0000"
-          }, {
-            title: "Morocco",
-            id: "MA",
-            color: "#CC0000"
-          }, {
-            title: "Mexico",
-            id: "MX",
-            color: "#CC0000"
-          }, {
-            title: "Mozambique",
-            id: "MZ",
-            color: "#CC0000"
-          }, {
-            title: "Turkey",
-            id: "TR",
-            color: "#CC0000"
-          }, {
-            title: "Great Britain",
-            id: "GB",
-            color: "#CC0000"
-          }, {
-            title: "Bolivia",
-            id: "BO",
-            color: "#CC0000"
-          }, {
-            title: "Kuwait",
-            id: "KW",
-            color: "#CC0000"
-          }, {
-            title: "Uruguay",
-            id: "UY",
-            color: "#CC0000"
-          }, {
-            title: "Italy",
-            id: "IT",
-            color: "#CC0000"
-          }, {
-            title: "Saudi Arabia",
-            id: "SA",
-            color: "#CC0000"
-          }]
-        };
-        // pass data provider to the map object
-        map.dataProvider = dataProvider;
-
-        /* create areas settings
-         * autoZoom set to true means that the map will zoom-in when clicked on the area
-         * selectedColor indicates color of the clicked area.
-         */
-        map.areasSettings = {
-          //autoZoom: false,
-          selectedColor: "#FFFFFF",
-          rollOverColor: "#FFFFFF"
-        };
-
-        // let's say we want a small map to be displayed, so let's create it
-        //map.smallMap = new AmCharts.SmallMap();
-
-        // write the map to container div
-        map.write("map");
-      });
-    </script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -315,7 +194,7 @@
           <h2>Experience of international projects</h2>
         </div>
         <div id="intermap" class="row">
-          <div id="map"></div>
+          <div id="map"><img src="images/amcharts.pixelMap.png" class="img-responsive center-block" alt="Locations of geophisical jobs"></div>
           <div id="listmap" class="container-fluid">
             <ul>
               <li> Saudi Arabia </li>
