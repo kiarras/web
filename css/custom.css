@@ -10,6 +10,10 @@ body {
    min-height: 70px;
    font-size: 1.25em;
  }
+ .center-table{
+   margin-left: 10%;
+   margin-right: 10%
+ }
 .navbar-default {
   background-color: #ffffff;
 }
@@ -60,10 +64,18 @@ body {
   #language {
     display:none !important;
   }
+  .center-table{
+    margin-left: 0%;
+    margin-right: 0%
+  }
 }
 @media (min-width: 1200px){
   #navbar-container {
     width: 75%;
+  }
+  .center-table{
+    margin-left: 25%;
+    margin-right: 25%
   }
 }
 /*Caracteristicas introSlide*/
