@@ -107,7 +107,9 @@
     }
     /*Para PC (si menor o igual de 1024px)*/
     @media (max-width: 1024px){
-
+      .navbar {
+        font-size: 1em;
+      }
     }
     /*Para PC (si mayor de 768px)*/
     @media (min-width: 768px){
