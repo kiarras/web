@@ -51,6 +51,16 @@ body {
   background-color: #286090;
   color: #ffffff;
 }
+.table {
+  text-align: center;
+}
+thead {
+  background-color: #286090;
+  color: #fff;
+}
+th {
+  text-align: center;
+}
 @media (max-width: 425px){
   .navbar {
     font-size: 2em;

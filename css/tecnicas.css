@@ -61,7 +61,11 @@
   #map_mag{
     display: block;
   }
-
+#disp{
+  width: inherit;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
     /* ----------Media queries---------- */
