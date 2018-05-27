@@ -1,0 +1,52 @@
+  /* Archivo CSS para articulos.html*/
+
+/*Caracteristicas articulos*/
+#articlebody {
+  background-color: #bababa;
+  display: inline-block;
+}
+#articlebody h1 {
+  margin-left: 10%;
+  font-weight: bold;
+}
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+#articlebody .row{
+  margin: 15px 10%;
+}
+/* Media queries */
+@media (max-width: 425px){
+  .container-fluid {
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 100%;
+  }
+  .page-header {
+    padding-left: 0px;
+  }
+  #articlebody h1 {
+    margin-left: 0%;
+    font-size: 2em;
+  }
+  #articlebody .row {
+    margin: 15px 0;
+    display: block;
+  }
+}
+@media (min-width:1024px){
+  #articlebody .container-fluid {
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+
+  #articlebody .row {
+    margin: 15px 20%;
+  }
+}
